@@ -1,7 +1,6 @@
 pipeline {
     agent any
-    
-            tools{
+           tools{
                  maven 'maven3'
                 }
 
@@ -29,7 +28,6 @@ pipeline {
                         sh 'mvn package'
                         }
                      }
-        
          
         }
     }
