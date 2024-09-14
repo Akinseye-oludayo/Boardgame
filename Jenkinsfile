@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'Slave-2'}
 
     
             tools{
